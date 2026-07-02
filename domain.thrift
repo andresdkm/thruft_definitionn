@@ -66,7 +66,6 @@ enum MissionStatus {
 struct Mission {
   1:  required Uuid          id
   2:  required Uuid          projectId
-  3:  required Uuid          mpoId
   4:  required MissionStatus status
   5:  optional string        flightPlanRef      
   6:  required TimestampMs   windowStart        
